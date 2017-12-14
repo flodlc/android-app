@@ -15,16 +15,16 @@
         android:orientation="vertical">
 
         <fragment
-            android:id="@+id/list"
             android:name="com.app.OfflineSelectorActivity"
+            android:id="@+id/offline"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:orientation="horizontal"
             tools:layout="@layout/offline_selector"></fragment>
 
         <fragment
-            android:id="@+id/list"
             android:name="com.app.OnlineSelectorActivity"
+            android:id="@+id/online"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:orientation="horizontal"
