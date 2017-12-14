@@ -1,7 +1,9 @@
-package com.example.florian.android_app;
+package com.app;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.florian.android_app.R;
 
 public class MainActivity extends AppCompatActivity {
 
