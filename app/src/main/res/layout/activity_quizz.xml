@@ -120,7 +120,6 @@
                     android:layout_margin="1dp"
                     android:layout_weight="10"
                     android:text="Cheval"
-                    android:textColor="@color/colorWhite"
                     android:textSize="20sp" />
 
                 <Button
@@ -129,7 +128,6 @@
                     android:layout_margin="1dp"
                     android:layout_weight="10"
                     android:text="Vache"
-                    android:textColor="@color/colorWhite"
                     android:textSize="20sp" />
             </TableRow>
 
@@ -141,7 +139,6 @@
                     android:layout_margin="1dp"
                     android:layout_weight="10"
                     android:text="Chien"
-                    android:textColor="@color/colorWhite"
                     android:textSize="20sp" />
 
                 <Button
@@ -150,7 +147,6 @@
                     android:layout_margin="1dp"
                     android:layout_weight="10"
                     android:text="Chat"
-                    android:textColor="@color/colorWhite"
                     android:textSize="20sp" />
             </TableRow>
         </TableLayout>
