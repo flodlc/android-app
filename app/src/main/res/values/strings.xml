@@ -1,3 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">android-app</string>
+    <string name="app_name">ZeQuizz</string>
+    <string name="online">En ligne</string>
+    <string name="offline">Hors ligne</string>
+    <string name="team">Equipe</string>
+    <string name="player">Joueur</string>
+    <string name="life">Vie</string>
+    <string name="score">Score</string>
+    <string name="value">Valeur</string>
 </resources>
