@@ -1,12 +1,9 @@
 package com.app;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
-
-import com.example.florian.android_app.R;
 
 public class QuizzActivity extends AppCompatActivity {
 
