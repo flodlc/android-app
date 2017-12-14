@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ZeQuizz</string>
+    <string name="offline">Offline</string>
+    <string name="online">Online</string>
+    <string name="life">Life</string>
+    <string name="player">Player</string>
+    <string name="score">Score</string>
+    <string name="team">Player</string>
+    <string name="value">Value</string>
+</resources>
