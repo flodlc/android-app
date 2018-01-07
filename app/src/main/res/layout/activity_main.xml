@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.app.MainActivity">
+    tools:context="com.app.Activity.MainActivity">
 
     <LinearLayout
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <fragment
-            android:name="com.app.OfflineSelectorActivity"
             android:id="@+id/offline"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:orientation="horizontal"
+            android:name="com.app.Activity.OfflineSelectorActivity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             tools:layout="@layout/offline_selector"></fragment>
 
         <fragment
-            android:name="com.app.OnlineSelectorActivity"
             android:id="@+id/online"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:orientation="horizontal"
+            android:name="com.app.Activity.OnlineSelectorActivity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             tools:layout="@layout/online_selector"></fragment>
+
+        <fragment
+            android:id="@+id/beerButton"
+            android:name="com.app.Activity.BeerButtonActivity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            tools:layout="@layout/beer_button_fragment"></fragment>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

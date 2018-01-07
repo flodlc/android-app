@@ -9,4 +9,7 @@
     <string name="score">Score</string>
     <string name="value">Valeur</string>
     <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_beer">BeerActivity</string>
+    <string name="seeBeers">Voir la liste des bières</string>
+    <string name="beersList">Liste des bières</string>
 </resources>

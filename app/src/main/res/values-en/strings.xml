@@ -7,4 +7,6 @@
     <string name="score">Score</string>
     <string name="team">Player</string>
     <string name="value">Value</string>
+    <string name="seeBeers">See the beers list</string>
+    <string name="beersList">Beers list</string>
 </resources>
